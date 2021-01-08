@@ -1,0 +1,19 @@
+{
+  "name": "ecommerce-backend",
+  "version": "1.0.0",
+  "description": "y",
+  "main": "y",
+  "scripts": {
+    "test": "y"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohitvashist/Ecommerce-mohitvashisht.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mohitvashist/Ecommerce-mohitvashisht/issues"
+  },
+  "homepage": "https://github.com/Mohitvashist/Ecommerce-mohitvashisht#readme"
+}
