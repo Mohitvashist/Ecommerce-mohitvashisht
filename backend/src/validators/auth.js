@@ -9,9 +9,7 @@ exports.validateRequest = [
 ];
 exports.validateSignInRequest = [
   check("email").isEmail().withMessage("email is required"),
-  check("password")
-    .isLength({ min: 6 })
-    .withMessage("password must be 6 char long"),
+  check("password").notEmpty().withMessage("password is required"),
 ];
 
 exports.isRequestValidated = (req, res, next) => {

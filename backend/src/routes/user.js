@@ -5,7 +5,8 @@ const {
   validateSignInRequest,
 } = require("../validators/auth");
 const router = express.Router();
-const { signup, signin, authorized } = require("./../controllers/auth");
+const { signup, signin } = require("./../controllers/auth");
+const { authorized } = require("./../common-middlewares");
 
 router.post("/signup", validateRequest, isRequestValidated, signup);
 
